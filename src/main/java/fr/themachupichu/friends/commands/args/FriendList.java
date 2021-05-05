@@ -15,12 +15,14 @@ public class FriendList {
         Player fplayer = new Player(player.getUniqueId().toString());
 
         if(fplayer.getFriends().size() == 0) {
-            player.sendMessage("§3§lFriends §8» §cVous n'avez aucun ami :(");
+            player.sendMessage("§3§lAMI §f§l│ §fListe d'amis:");
+            player.sendMessage(" ");
+            player.sendMessage("§cVous n'avez aucun ami :(");
             return;
         }
 
         player.sendMessage(" ");
-        player.sendMessage("§3§lFriends §8» §fListe de vos amis :");
+        player.sendMessage("§3§lAMI §f§l│ §fListe d'amis:");
         for(String string : fplayer.getFriends()) {
             String name = new Player(string).getName();
             ComponentBuilder supprimer = new ComponentBuilder("§8[§c§l×§8]").event(new ClickEvent(ClickEvent.Action.RUN_COMMAND, "/f delete " + name));

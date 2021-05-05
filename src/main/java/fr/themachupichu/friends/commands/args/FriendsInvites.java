@@ -15,12 +15,14 @@ public class FriendsInvites {
         Player fplayer = new Player(player.getUniqueId().toString());
 
         if(fplayer.getInvites().size() == 0) {
-            player.sendMessage("§3§lFriends §8» §cVous n'avez aucune invitation :(");
+            player.sendMessage("§3§lAMI §f§l│ §fInvitations:");
+            player.sendMessage(" ");
+            player.sendMessage("§cVous n'avez aucune invitation :(");
             return;
         }
 
         player.sendMessage(" ");
-        player.sendMessage("§3§lFriends §8» §fListe de vos invitations :");
+        player.sendMessage("§3§lAMI §f§l│ §fInvitations:");
         for(String string : fplayer.getInvites()) {
             if(!fplayer.getHeInvited().contains(string)) {
                 String name = new Player(string).getName();
