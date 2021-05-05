@@ -15,7 +15,7 @@ import java.util.List;
 public class FriendsCommand extends Command implements TabExecutor {
 
     public FriendsCommand() {
-        super("friends", "oerthyon.friends", "friend", "ami", "amis");
+        super("friends", "oerthyon.friends", "f", "friend", "ami", "amis");
     }
 
     public static void sendHelpCommand() {

@@ -1,0 +1,20 @@
+fr/themachupichu/friends/api/Player.java
+ fr.themachupichu.friends.api.Player
+fr/themachupichu/friends/events/PlayersListener.java
+ fr.themachupichu.friends.events.PlayersListener
+fr/themachupichu/friends/commands/args/FriendsInvites.java
+ fr.themachupichu.friends.commands.args.FriendsInvites
+fr/themachupichu/friends/commands/args/FriendList.java
+ fr.themachupichu.friends.commands.args.FriendList
+fr/themachupichu/friends/commands/args/FriendDelete.java
+ fr.themachupichu.friends.commands.args.FriendDelete
+fr/themachupichu/friends/commands/FriendsCommand.java
+ fr.themachupichu.friends.commands.FriendsCommand
+fr/themachupichu/friends/Main.java
+ fr.themachupichu.friends.Main
+fr/themachupichu/friends/commands/args/FriendDeny.java
+ fr.themachupichu.friends.commands.args.FriendDeny
+fr/themachupichu/friends/commands/args/FriendAdd.java
+ fr.themachupichu.friends.commands.args.FriendAdd
+fr/themachupichu/friends/commands/args/FriendAccept.java
+ fr.themachupichu.friends.commands.args.FriendAccept
