@@ -15,18 +15,18 @@ import java.util.List;
 public class FriendsCommand extends Command implements TabExecutor {
 
     public FriendsCommand() {
-        super("friends", "oerthyon.friends", "f", "friend", "ami", "amis");
+        super("friends", "oerthyon.friends", "friend", "ami", "amis");
     }
 
     public static void sendHelpCommand() {
         player.sendMessage("§8§l» §3Aide - Amis:");
-        player.sendMessage("  §7§l● §f/f add §b<pseudo> §f§l» §7Envoyer une demande d'ami");
-        player.sendMessage("  §7§l● §f/f accept §b<pseudo> §f§l» §7Accepter une demande d'ami");
-        player.sendMessage("  §7§l● §f/f deny §b<pseudo> §f§l» §7Refuser une demande d'ami");
-        player.sendMessage("  §7§l● §f/f delete §b<pseudo> §f§l» §7Supprimer un ami");
-        player.sendMessage("  §7§l● §f/f invites §f§l» §f§l» Liste d'invites d'amis");
-        player.sendMessage("  §7§l● §f/f list §f§l» §7Liste d'amis");
-        player.sendMessage("  §7§l● §f/f help §f§l» §7Aide - Amis");
+        player.sendMessage("  §7§l● §f/friend add §b<pseudo> §f§l» §7Envoyer une demande d'ami");
+        player.sendMessage("  §7§l● §f/friend accept §b<pseudo> §f§l» §7Accepter une demande d'ami");
+        player.sendMessage("  §7§l● §f/friend deny §b<pseudo> §f§l» §7Refuser une demande d'ami");
+        player.sendMessage("  §7§l● §f/friend delete §b<pseudo> §f§l» §7Supprimer un ami");
+        player.sendMessage("  §7§l● §f/friend invites §f§l» §f§l» Liste d'invites d'amis");
+        player.sendMessage("  §7§l● §f/friend list §f§l» §7Liste d'amis");
+        player.sendMessage("  §7§l● §f/friend help §f§l» §7Aide - Amis");
     }
 
     static ProxiedPlayer player;
